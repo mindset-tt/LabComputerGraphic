@@ -123,6 +123,12 @@
     <Compile Include="Week2\Week2_Lab.Designer.cs">
       <DependentUpon>Week2_Lab.cs</DependentUpon>
     </Compile>
+    <Compile Include="Week3+4+5\Week3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week3_3.Designer.cs">
+      <DependentUpon>Week3_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Week3+4+5\Week3-2_Lab.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,60 @@
     </Compile>
     <Compile Include="Week3+4+5\Week3_Lab.Designer.cs">
       <DependentUpon>Week3_Lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week4_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week4_1.Designer.cs">
+      <DependentUpon>Week4_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week4_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week4_2.Designer.cs">
+      <DependentUpon>Week4_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week4_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week4_3.Designer.cs">
+      <DependentUpon>Week4_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_1.Designer.cs">
+      <DependentUpon>Week5_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_2.Designer.cs">
+      <DependentUpon>Week5_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_3.Designer.cs">
+      <DependentUpon>Week5_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week3+4+5\Week5_4.Designer.cs">
+      <DependentUpon>Week5_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week6\Week6_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week6\Week6_1.Designer.cs">
+      <DependentUpon>Week6_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Week6\Week6_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week6\Week6_2.Designer.cs">
+      <DependentUpon>Week6_2.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Week1\Homework.resx">
       <DependentUpon>Homework.cs</DependentUpon>
@@ -153,11 +213,41 @@
     <EmbeddedResource Include="Week2\Week2_Lab.resx">
       <DependentUpon>Week2_Lab.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week3_3.resx">
+      <DependentUpon>Week3_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Week3+4+5\Week3-2_Lab.resx">
       <DependentUpon>Week3-2_Lab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Week3+4+5\Week3_Lab.resx">
       <DependentUpon>Week3_Lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week4_1.resx">
+      <DependentUpon>Week4_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week4_2.resx">
+      <DependentUpon>Week4_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week4_3.resx">
+      <DependentUpon>Week4_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week5_1.resx">
+      <DependentUpon>Week5_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week5_2.resx">
+      <DependentUpon>Week5_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week5_3.resx">
+      <DependentUpon>Week5_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week3+4+5\Week5_4.resx">
+      <DependentUpon>Week5_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week6\Week6_1.resx">
+      <DependentUpon>Week6_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week6\Week6_2.resx">
+      <DependentUpon>Week6_2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -174,6 +264,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pic\Bae_Suzy.png" />
+    <Content Include="Pic\edge.png" />
+    <Content Include="Pic\Sanook_HAN-SO-HEE-2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

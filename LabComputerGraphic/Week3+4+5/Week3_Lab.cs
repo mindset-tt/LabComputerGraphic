@@ -24,7 +24,7 @@ namespace LabComputerGraphic.Week3_4_5
             b = new SolidBrush(Color.Orange);
             btnColor.BackColor = ((SolidBrush)b).Color;
             p = new Pen(b.Color, 3);
-            im = new Bitmap("C:/Users/khamp/Desktop/My lovely actress/Sanook_HAN-SO-HEE-2.jpg");
+            im = new Bitmap("C:/Users/khamp/Source/Repos/LabComputerGraphic/LabComputerGraphic/Pic/Sanook_HAN-SO-HEE-2.jpg");
 
         }
 
